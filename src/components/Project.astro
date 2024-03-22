@@ -25,14 +25,13 @@ function truncateDescription(description) {
       target="_blank">{project.name}</a
     >
     {
-      project.archived ? (
-        <span class="ml-1 border text-[#9a6700] border-[#bf8700] rounded-full px-2 inline-block text-xs font-medium whitespace-nowrap">
-          {project.visibility} archive
-        </span>
-      ) : (
-        <span class="ml-1 border text-[#636c76] border-[#d0d7de] rounded-full px-2  inline-block text-xs font-medium whitespace-nowrap">
-          {project.visibility}
-        </span>
+      project.private && (
+        <Icon name="octicon-lock-16" class="ml-1 text-[#636c76]" />
+      )
+    }
+    {
+      project.archived && (
+        <Icon name="octicon-archive-16" class="ml-1 text-[#636c76]" />
       )
     }
   </h3>
