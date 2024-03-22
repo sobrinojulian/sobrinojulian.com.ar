@@ -1,0 +1,25 @@
+---
+import LayoutBase from "@/layouts/Base.astro";
+import Project from "@/components/Project.astro";
+import projects from "@/data/gh.json";
+
+const title = "Projects";
+const description = "Things I’ve released into the world";
+---
+
+<LayoutBase>
+  {
+    Object.entries(projects).map(([k, v]) => (
+      <article class="grid grid-cols-6 text-sm">
+        <h2 class="col-span-6 sm:col-span-1 text-base font-bold">{k}</h2>
+        <div class="col-span-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2">
+            {v.repositories.map((x) => (
+              <Project project={x} />
+            ))}
+          </div>
+        </div>
+      </article>
+    ))
+  }
+</LayoutBase>

@@ -1,0 +1,38 @@
+---
+import { Icon } from "astro-icon/components";
+
+const nav = [
+  { title: "Home", url: "/" },
+  { title: "CV", url: "https://cv.sobrinojulian.com.ar/en" },
+];
+
+function isCurrent(pathname, url) {
+  if (url === "/" && pathname === "/") return true;
+  if (pathname.startsWith(url) && url !== "/") return true;
+  return false;
+}
+
+const pathname = new URL(Astro.request.url).pathname;
+---
+
+<nav class="flex items-start justify-between py-6">
+  <ul class="flex list-none text-end gap-4">
+    {
+      nav.map((x) => (
+        <li>
+          <a
+            class={`inline-flex items-center gap-1 ${isCurrent(pathname, x.url) ? "underline" : ""}`}
+            href={x.url}
+            target={x.url.startsWith("http") ? "_blank" : "_self"}
+            rel={x.url.startsWith("http") ? "noopener noreferrer" : ""}
+          >
+            {x.title}
+            {x.url.startsWith("http") && (
+              <Icon name="octicon-link-external-16" />
+            )}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
