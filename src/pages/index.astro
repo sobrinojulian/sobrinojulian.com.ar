@@ -17,7 +17,8 @@ const statuses = ["public", "private", "archive"];
 ---
 
 <LayoutBase>
-  <div>
+  <div x-data="{ www: true, ort: true, cli: true, dotfiles: true, clients: true, other: true, boilerplate: true, clone: true, public: true, private: true, archive: true }">
+    {/* 
     <div class="grid grid-cols-6 gap-4 my-8">
       <h2 class="col-span-6 sm:col-span-1 text-base">category</h2>
       <div
@@ -46,6 +47,7 @@ const statuses = ["public", "private", "archive"];
         }
       </div>
     </div>
+    */}
     <div class="">
       {
         categories.map((category) => (

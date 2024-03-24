@@ -68,7 +68,8 @@ async function fetchRepos() {
         .filter((x) => !(x.owner === "BA7B7CFE" && x.private))
         .filter((x) => !(x.owner === "Sebaasmendez"))
         .filter((x) => !x.topics.includes("private"))
-        .filter((x) => !x.name.startsWith("tbd"));
+        .filter((x) => !x.name.startsWith("tbd"))
+        .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
       // Group repositories by owner or by topics[0] if topics is not empty
       const groupedRepos = {};
@@ -83,27 +84,11 @@ async function fetchRepos() {
         groupedRepos[groupKey].repositories.push(repo);
       });
 
-      // Sort repositories within each owner
-      for (const groupKey in groupedRepos) {
-        groupedRepos[groupKey].repositories.sort((a, b) => {
-          if (a.archived !== b.archived) {
-            return a.archived ? 1 : -1;
-          }
-          if (a.updated_at !== b.updated_at) {
-            return new Date(b.updated_at) - new Date(a.updated_at);
-          }
-          return a.name.localeCompare(b.name);
-        });
-      }
-
       const directoryPath = path.join(
         path.dirname(new URL(import.meta.url).pathname),
         "..",
         "data"
       );
-      if (!fs.existsSync(directoryPath)) {
-        fs.mkdirSync(directoryPath, { recursive: true });
-      }
       const filePath = path.join(directoryPath, "gh.json");
 
       fs.writeFileSync(filePath, JSON.stringify(groupedRepos, null, 2));
