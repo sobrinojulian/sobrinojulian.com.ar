@@ -1,4 +1,214 @@
 {
+  "cli": {
+    "columns": 2,
+    "repositories": [
+      {
+        "name": "9z-cli",
+        "full_name": "sobrinojulian/9z-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/9z-cli",
+        "description": "🖱️ CLI para 9z.games",
+        "created_at": "2021-08-02T13:05:56Z",
+        "updated_at": "2024-03-24T04:55:38Z",
+        "pushed_at": "2024-03-24T04:54:58Z",
+        "language": "JavaScript",
+        "license": "MIT",
+        "visibility": "public",
+        "archived": true,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#F1E05A"
+      },
+      {
+        "name": "mortem-cli",
+        "full_name": "sobrinojulian/mortem-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/mortem-cli",
+        "description": "💀 Command-line death clock",
+        "created_at": "2018-02-24T03:54:24Z",
+        "updated_at": "2024-03-22T02:31:15Z",
+        "pushed_at": "2023-08-03T00:20:19Z",
+        "language": "JavaScript",
+        "license": "MIT",
+        "visibility": "public",
+        "archived": false,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#F1E05A"
+      },
+      {
+        "name": "aquehorajuegaboca-cli",
+        "full_name": "sobrinojulian/aquehorajuegaboca-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/aquehorajuegaboca-cli",
+        "description": "⚽ CLI for aquehorajuegaboca.com.ar",
+        "created_at": "2019-11-24T22:00:42Z",
+        "updated_at": "2024-03-22T02:31:52Z",
+        "pushed_at": "2023-08-02T22:53:44Z",
+        "language": "JavaScript",
+        "license": "MIT",
+        "visibility": "public",
+        "archived": false,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#F1E05A"
+      },
+      {
+        "name": "xcolor-tailwind-cli",
+        "full_name": "sobrinojulian/xcolor-tailwind-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/xcolor-tailwind-cli",
+        "description": "🌈 Tailwind color picker for X11",
+        "created_at": "2021-07-30T07:52:55Z",
+        "updated_at": "2024-03-22T02:46:20Z",
+        "pushed_at": "2022-03-13T03:39:58Z",
+        "language": "JavaScript",
+        "license": "",
+        "visibility": "public",
+        "archived": false,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#F1E05A"
+      },
+      {
+        "name": "timer-cli",
+        "full_name": "sobrinojulian/timer-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/timer-cli",
+        "description": "⌚️ Command-line timer",
+        "created_at": "2019-08-18T08:38:45Z",
+        "updated_at": "2024-03-22T02:34:17Z",
+        "pushed_at": "2022-03-13T03:38:36Z",
+        "language": "JavaScript",
+        "license": "MIT",
+        "visibility": "public",
+        "archived": false,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#F1E05A"
+      },
+      {
+        "name": "ole-cli",
+        "full_name": "sobrinojulian/ole-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/ole-cli",
+        "description": "⚽ CLI para la Agenda deportiva Olé",
+        "created_at": "2018-02-25T04:31:39Z",
+        "updated_at": "2024-03-22T02:34:24Z",
+        "pushed_at": "2022-01-22T23:27:39Z",
+        "language": "JavaScript",
+        "license": "MIT",
+        "visibility": "public",
+        "archived": false,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#F1E05A"
+      },
+      {
+        "name": "weather-cli",
+        "full_name": "sobrinojulian/weather-cli",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/weather-cli",
+        "description": "🌞 Check the local weather from your terminal",
+        "created_at": "2019-12-02T01:58:57Z",
+        "updated_at": "2024-03-24T04:55:18Z",
+        "pushed_at": "2019-12-03T21:26:43Z",
+        "language": "Python",
+        "license": "",
+        "visibility": "public",
+        "archived": true,
+        "topics": [
+          "cli"
+        ],
+        "homepage": "",
+        "language_color": "#3572A5"
+      }
+    ]
+  },
+  "www": {
+    "columns": 2,
+    "repositories": [
+      {
+        "name": "123",
+        "full_name": "sobrinojulian/123",
+        "private": true,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/123",
+        "description": "😽 The personal front page",
+        "created_at": "2022-12-06T23:25:58Z",
+        "updated_at": "2024-03-22T07:13:40Z",
+        "pushed_at": "2024-03-24T04:21:54Z",
+        "language": "CSS",
+        "license": "",
+        "visibility": "private",
+        "archived": false,
+        "topics": [
+          "www"
+        ],
+        "homepage": "https://rad-puppy-78013e.netlify.app/",
+        "language_color": "#563D7C"
+      },
+      {
+        "name": "sobrinojulian.com.ar",
+        "full_name": "sobrinojulian/sobrinojulian.com.ar",
+        "private": false,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/sobrinojulian.com.ar",
+        "description": "🌐 www",
+        "created_at": "2018-03-06T00:00:00Z",
+        "updated_at": "2024-03-24T03:58:47Z",
+        "pushed_at": "2024-03-24T03:58:43Z",
+        "language": "Astro",
+        "license": "",
+        "visibility": "public",
+        "archived": false,
+        "topics": [
+          "www"
+        ],
+        "homepage": "https://sobrinojulian.com.ar/",
+        "language_color": "#FF5A03"
+      },
+      {
+        "name": "cv",
+        "full_name": "sobrinojulian/cv",
+        "private": true,
+        "owner": "sobrinojulian",
+        "html_url": "https://github.com/sobrinojulian/cv",
+        "description": "💼 curriculum vitae",
+        "created_at": "2020-03-11T00:00:00Z",
+        "updated_at": "2024-03-22T06:32:53Z",
+        "pushed_at": "2024-03-22T06:28:21Z",
+        "language": "Astro",
+        "license": "",
+        "visibility": "private",
+        "archived": false,
+        "topics": [
+          "www"
+        ],
+        "homepage": "https://cv.sobrinojulian.com.ar/",
+        "language_color": "#FF5A03"
+      }
+    ]
+  },
   "sobrinojulian": {
     "columns": 2,
     "repositories": [
@@ -37,71 +247,6 @@
         "topics": [],
         "homepage": "",
         "language_color": "#E34C26"
-      }
-    ]
-  },
-  "www": {
-    "columns": 2,
-    "repositories": [
-      {
-        "name": "sobrinojulian.com.ar",
-        "full_name": "sobrinojulian/sobrinojulian.com.ar",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/sobrinojulian.com.ar",
-        "description": "🌐 www",
-        "created_at": "2018-03-06T00:00:00Z",
-        "updated_at": "2024-03-22T09:47:40Z",
-        "pushed_at": "2024-03-22T10:02:42Z",
-        "language": "JavaScript",
-        "license": "",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "www"
-        ],
-        "homepage": "https://sobrinojulian.com.ar/",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "cv",
-        "full_name": "sobrinojulian/cv",
-        "private": true,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/cv",
-        "description": "💼 curriculum vitae",
-        "created_at": "2020-03-11T00:00:00Z",
-        "updated_at": "2024-03-22T06:32:53Z",
-        "pushed_at": "2024-03-22T06:28:21Z",
-        "language": "Astro",
-        "license": "",
-        "visibility": "private",
-        "archived": false,
-        "topics": [
-          "www"
-        ],
-        "homepage": "https://cv.sobrinojulian.com.ar/",
-        "language_color": "#FF5A03"
-      },
-      {
-        "name": "123",
-        "full_name": "sobrinojulian/123",
-        "private": true,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/123",
-        "description": "😽 The personal front page",
-        "created_at": "2022-12-06T23:25:58Z",
-        "updated_at": "2024-03-22T07:13:40Z",
-        "pushed_at": "2023-04-21T17:30:57Z",
-        "language": "CSS",
-        "license": "",
-        "visibility": "private",
-        "archived": false,
-        "topics": [
-          "www"
-        ],
-        "homepage": "https://rad-puppy-78013e.netlify.app/",
-        "language_color": "#563D7C"
       }
     ]
   },
@@ -508,12 +653,12 @@
         "html_url": "https://github.com/sjarbs/emacs",
         "description": "🐃 .emacs.d",
         "created_at": "2021-11-13T03:30:05Z",
-        "updated_at": "2024-03-22T03:29:04Z",
+        "updated_at": "2024-03-24T04:48:06Z",
         "pushed_at": "2021-11-13T03:30:52Z",
         "language": "Emacs Lisp",
         "license": "",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "dotfiles"
         ],
@@ -542,151 +687,6 @@
       }
     ]
   },
-  "cli": {
-    "columns": 2,
-    "repositories": [
-      {
-        "name": "mortem-cli",
-        "full_name": "sobrinojulian/mortem-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/mortem-cli",
-        "description": "💀 Command-line death clock",
-        "created_at": "2018-02-24T03:54:24Z",
-        "updated_at": "2024-03-22T02:31:15Z",
-        "pushed_at": "2023-08-03T00:20:19Z",
-        "language": "JavaScript",
-        "license": "MIT",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "aquehorajuegaboca-cli",
-        "full_name": "sobrinojulian/aquehorajuegaboca-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/aquehorajuegaboca-cli",
-        "description": "⚽ CLI for aquehorajuegaboca.com.ar",
-        "created_at": "2019-11-24T22:00:42Z",
-        "updated_at": "2024-03-22T02:31:52Z",
-        "pushed_at": "2023-08-02T22:53:44Z",
-        "language": "JavaScript",
-        "license": "MIT",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "xcolor-tailwind-cli",
-        "full_name": "sobrinojulian/xcolor-tailwind-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/xcolor-tailwind-cli",
-        "description": "🌈 Tailwind color picker for X11",
-        "created_at": "2021-07-30T07:52:55Z",
-        "updated_at": "2024-03-22T02:46:20Z",
-        "pushed_at": "2022-03-13T03:39:58Z",
-        "language": "JavaScript",
-        "license": "",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "timer-cli",
-        "full_name": "sobrinojulian/timer-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/timer-cli",
-        "description": "⌚️ Command-line timer",
-        "created_at": "2019-08-18T08:38:45Z",
-        "updated_at": "2024-03-22T02:34:17Z",
-        "pushed_at": "2022-03-13T03:38:36Z",
-        "language": "JavaScript",
-        "license": "MIT",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "ole-cli",
-        "full_name": "sobrinojulian/ole-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/ole-cli",
-        "description": "⚽ CLI para la Agenda deportiva Olé",
-        "created_at": "2018-02-25T04:31:39Z",
-        "updated_at": "2024-03-22T02:34:24Z",
-        "pushed_at": "2022-01-22T23:27:39Z",
-        "language": "JavaScript",
-        "license": "MIT",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "9z-cli",
-        "full_name": "sobrinojulian/9z-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/9z-cli",
-        "description": "🖱️ CLI para 9z.games",
-        "created_at": "2021-08-02T13:05:56Z",
-        "updated_at": "2024-03-22T02:46:48Z",
-        "pushed_at": "2022-01-22T23:27:19Z",
-        "language": "JavaScript",
-        "license": "MIT",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#F1E05A"
-      },
-      {
-        "name": "weather-cli",
-        "full_name": "sobrinojulian/weather-cli",
-        "private": false,
-        "owner": "sobrinojulian",
-        "html_url": "https://github.com/sobrinojulian/weather-cli",
-        "description": "🌞 Check the local weather from your terminal",
-        "created_at": "2019-12-02T01:58:57Z",
-        "updated_at": "2024-03-22T05:13:16Z",
-        "pushed_at": "2019-12-03T21:26:43Z",
-        "language": "Python",
-        "license": "",
-        "visibility": "public",
-        "archived": false,
-        "topics": [
-          "cli"
-        ],
-        "homepage": "",
-        "language_color": "#3572A5"
-      }
-    ]
-  },
   "clone": {
     "columns": 2,
     "repositories": [
@@ -698,12 +698,12 @@
         "html_url": "https://github.com/sobrinojulian/bt.ht",
         "description": null,
         "created_at": "2023-06-16T06:11:07Z",
-        "updated_at": "2024-03-22T03:34:01Z",
+        "updated_at": "2024-03-24T04:41:11Z",
         "pushed_at": "2023-06-16T07:04:25Z",
         "language": "Nunjucks",
         "license": "MIT",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "clone"
         ],
@@ -718,16 +718,16 @@
         "html_url": "https://github.com/sobrinojulian/paperpillar.com",
         "description": null,
         "created_at": "2021-07-03T00:16:48Z",
-        "updated_at": "2024-03-22T03:37:42Z",
+        "updated_at": "2024-03-24T04:41:24Z",
         "pushed_at": "2021-07-07T19:37:35Z",
         "language": "HTML",
         "license": "",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "clone"
         ],
-        "homepage": "https://eager-easley-1d7132.netlify.app/",
+        "homepage": "https://paperpillarcom.netlify.app/",
         "language_color": "#E34C26"
       },
       {
@@ -738,16 +738,16 @@
         "html_url": "https://github.com/sobrinojulian/100r.co",
         "description": null,
         "created_at": "2021-07-06T00:27:49Z",
-        "updated_at": "2024-03-22T03:32:23Z",
+        "updated_at": "2024-03-24T04:41:35Z",
         "pushed_at": "2021-07-06T00:28:21Z",
         "language": "HTML",
         "license": "",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "clone"
         ],
-        "homepage": "https://rococo-cendol-36c426.netlify.app/",
+        "homepage": "https://100r.netlify.app/",
         "language_color": "#E34C26"
       },
       {
@@ -758,16 +758,16 @@
         "html_url": "https://github.com/sobrinojulian/arcaeon.com.au",
         "description": null,
         "created_at": "2020-06-06T05:25:07Z",
-        "updated_at": "2024-03-22T03:33:16Z",
+        "updated_at": "2024-03-24T04:41:54Z",
         "pushed_at": "2020-06-06T05:26:23Z",
         "language": "HTML",
         "license": "",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "clone"
         ],
-        "homepage": "https://startling-quokka-5f2bff.netlify.app/",
+        "homepage": "https://arcaeon.netlify.app/",
         "language_color": "#E34C26"
       }
     ]
@@ -783,12 +783,12 @@
         "html_url": "https://github.com/sobrinojulian/twitter-bookmarks-scraper",
         "description": "🐦 Twitter bookmarks scraper",
         "created_at": "2019-01-10T20:52:44Z",
-        "updated_at": "2024-03-22T03:25:32Z",
+        "updated_at": "2024-03-24T04:43:48Z",
         "pushed_at": "2023-04-19T16:14:15Z",
         "language": "JavaScript",
         "license": "MIT",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "other"
         ],
@@ -803,12 +803,12 @@
         "html_url": "https://github.com/sobrinojulian/zone",
         "description": "🤖 Discord bot",
         "created_at": "2020-08-17T14:46:29Z",
-        "updated_at": "2024-03-22T03:25:59Z",
+        "updated_at": "2024-03-24T04:43:35Z",
         "pushed_at": "2023-04-15T11:22:13Z",
         "language": "JavaScript",
         "license": "MIT",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "other"
         ],
@@ -826,14 +826,14 @@
         "private": false,
         "owner": "sjarbs",
         "html_url": "https://github.com/sjarbs/neat-website-boilerplate",
-        "description": "Netlify CMS, Eleventy, Alpine.js, Tailwind Boilerplate",
+        "description": "🛑 Netlify CMS, Eleventy, Alpine.js, Tailwind Boilerplate",
         "created_at": "2020-11-19T01:07:18Z",
-        "updated_at": "2024-03-22T02:57:27Z",
+        "updated_at": "2024-03-24T04:36:14Z",
         "pushed_at": "2022-09-04T15:10:51Z",
         "language": "HTML",
         "license": "",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "boilerplate"
         ],
@@ -848,12 +848,12 @@
         "html_url": "https://github.com/sjarbs/node-cli-boilerplate",
         "description": "🖨️ Boilerplate to kickstart creating a Node.js command-line tool",
         "created_at": "2021-08-02T12:44:37Z",
-        "updated_at": "2024-03-22T02:57:38Z",
+        "updated_at": "2024-03-24T04:36:35Z",
         "pushed_at": "2021-08-02T12:54:19Z",
         "language": "JavaScript",
         "license": "MIT",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "boilerplate"
         ],
@@ -868,7 +868,7 @@
         "html_url": "https://github.com/sjarbs/python-package-boilerplate",
         "description": "🐍 Boilerplate to kickstart creating a Python package.",
         "created_at": "2020-08-30T19:38:12Z",
-        "updated_at": "2024-03-22T04:20:14Z",
+        "updated_at": "2024-03-24T04:36:46Z",
         "pushed_at": "2021-01-20T10:39:57Z",
         "language": "Python",
         "license": "MIT",
@@ -888,12 +888,12 @@
         "html_url": "https://github.com/sjarbs/jekyll-website-boilerplate",
         "description": "💎 Boilerplate to kickstart creating a Jekyll website. ",
         "created_at": "2020-09-20T22:33:48Z",
-        "updated_at": "2024-03-22T02:57:10Z",
+        "updated_at": "2024-03-24T04:36:58Z",
         "pushed_at": "2020-11-15T19:46:02Z",
         "language": "Ruby",
         "license": "MIT",
         "visibility": "public",
-        "archived": false,
+        "archived": true,
         "topics": [
           "boilerplate"
         ],
