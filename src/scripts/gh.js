@@ -23,23 +23,26 @@ const LANGUAGE_COLORS = {
   Batchfile: "#C1F12E",
 };
 
+function amend(repo) {
+  if (repo.owner.login === "indecisovampiro") repo.owner.login = "clients";
+  if (repo.owner.login === "somosliana") repo.owner.login = "clients";
+  if (repo.license && repo.license.name === "MIT License")
+    repo.license.name = "MIT";
+
+  // I fucked-up the original date deleting the repo
+  if (repo.full_name === "sobrinojulian/cv")
+    repo.created_at = "2020-03-11T00:00:00Z";
+  if (repo.full_name === "sobrinojulian/sobrinojulian.com.ar")
+    repo.created_at = "2018-03-06T00:00:00Z";
+}
+
 async function fetchRepos() {
   try {
     // Execute the command to fetch repositories using `gh api`
     exec("gh api /user/repos --paginate", (error, stdout, stderr) => {
       const data = JSON.parse(stdout);
-
-      const cleanedRepos = data.map((repo) => {
-        if (repo.owner.login === "indecisovampiro")
-          repo.owner.login = "somosliana";
-        if (repo.license && repo.license.name === "MIT License")
-          repo.license.name = "MIT";
-        // I fucked-up the original date deleting the repo
-        if (repo.full_name === "sobrinojulian/cv")
-          repo.created_at = "2020-03-11T00:00:00Z";
-        if (repo.full_name === "sobrinojulian/sobrinojulian.com.ar")
-          repo.created_at = "2018-03-06T00:00:00Z";
-
+      let repos = data.map((repo) => {
+        amend(repo);
         return {
           name: repo.name,
           full_name: repo.full_name,
@@ -60,7 +63,8 @@ async function fetchRepos() {
         };
       });
 
-      const filteredRepos = cleanedRepos
+      // Filter
+      repos = repos
         .filter((x) => !(x.owner === "BA7B7CFE" && x.private))
         .filter((x) => !(x.owner === "Sebaasmendez"))
         .filter((x) => !x.topics.includes("private"))
@@ -68,7 +72,7 @@ async function fetchRepos() {
 
       // Group repositories by owner or by topics[0] if topics is not empty
       const groupedRepos = {};
-      filteredRepos.forEach((repo) => {
+      repos.forEach((repo) => {
         const groupKey = repo.topics.length > 0 ? repo.topics[0] : repo.owner;
         if (!groupedRepos[groupKey]) {
           groupedRepos[groupKey] = {

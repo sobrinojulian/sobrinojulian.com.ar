@@ -3,23 +3,64 @@ import LayoutBase from "@/layouts/Base.astro";
 import Project from "@/components/Project.astro";
 import projects from "@/data/gh.json";
 
-const title = "Projects";
-const description = "Things I’ve released into the world";
+const categories = [
+  "www",
+  "ort",
+  "cli",
+  "dotfiles",
+  "clients",
+  "other",
+  "boilerplate",
+  "clone",
+];
+const statuses = ["public", "private", "archive"];
 ---
 
 <LayoutBase>
-  {
-    Object.entries(projects).map(([k, v]) => (
-      <article class="grid grid-cols-6 text-sm">
-        <h2 class="col-span-6 sm:col-span-1 text-base font-bold">{k}</h2>
-        <div class="col-span-5">
-          <div class="grid grid-cols-1 sm:grid-cols-2">
-            {v.repositories.map((x) => (
-              <Project project={x} />
-            ))}
-          </div>
-        </div>
-      </article>
-    ))
-  }
+  <div>
+    <div class="grid grid-cols-6 gap-4 my-8">
+      <h2 class="col-span-6 sm:col-span-1 text-base">category</h2>
+      <div
+        class="flex flex-row flex-wrap sm:grid sm:grid-cols-5 gap-y-4 gap-x-8 col-span-6 sm:col-span-5"
+      >
+        {
+          categories.map((x) => (
+            <label class="text-[#479de8] cursor-pointer flex gap-1 items-center">
+              <input type="checkbox" x-model={x} />
+              {x}
+            </label>
+          ))
+        }
+      </div>
+      <h2 class="col-span-6 sm:col-span-1 text-base">state</h2>
+      <div
+        class="flex flex-row flex-wrap sm:grid sm:grid-cols-5 gap-y-4 gap-x-8 col-span-6 sm:col-span-5"
+      >
+        {
+          statuses.map((x) => (
+            <label class="text-[#479de8] cursor-pointer flex gap-1 items-center">
+              <input type="checkbox" x-model={x} />
+              {x}
+            </label>
+          ))
+        }
+      </div>
+    </div>
+    <div class="">
+      {
+        categories.map((category) => (
+          <article class="grid grid-cols-6 text-sm">
+            <h2 class="col-span-6 sm:col-span-1 text-base font-bold">{category}</h2>
+            <div class="col-span-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2">
+                {projects[category].repositories.map((x) => (
+                  <Project project={x} />
+                ))}
+              </div>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
 </LayoutBase>
